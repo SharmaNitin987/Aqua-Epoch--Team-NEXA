@@ -1,0 +1,57 @@
+{
+  "features": [
+    "pH",
+    "Hardness",
+    "TDS",
+    "Chloramines",
+    "Sulfate",
+    "Conductivity",
+    "Organic_carbon",
+    "Trihalomethanes",
+    "Turbidity",
+    "Calcium",
+    "Magnesium",
+    "Sodium",
+    "Potassium",
+    "Chloride",
+    "Nitrate",
+    "Fluoride",
+    "Iron",
+    "Alkalinity"
+  ],
+  "defaults": {
+    "pH": 7.10627564553155,
+    "Hardness": 196.735341689987,
+    "TDS": 21136.8660860749,
+    "Chloramines": 7.07657945763453,
+    "Sulfate": 331.304196003885,
+    "Conductivity": 423.43842637222997,
+    "Organic_carbon": 14.24857886761275,
+    "Trihalomethanes": 66.04855069877294,
+    "Turbidity": 3.95242085243395,
+    "Calcium": 74.46375491881534,
+    "Magnesium": 29.38422538697155,
+    "Sodium": 76.21461376535734,
+    "Potassium": 5.786869896205635,
+    "Chloride": 136.492251017951,
+    "Nitrate": 14.4706733263879,
+    "Fluoride": 0.76117239082873,
+    "Iron": 0.12311763049466601,
+    "Alkalinity": 147.25909067143698
+  },
+  "best_model": "HistGradientBoosting",
+  "metrics": {
+    "model": "HistGradientBoosting",
+    "accuracy": 0.9913693901035673,
+    "precision": 0.986764705882353,
+    "recall": 0.9911373707533235,
+    "f1": 0.9889462048636699,
+    "roc_auc": 0.9995642471011295
+  },
+  "target_meanings": {
+    "0": "Not potable (according to dataset label)",
+    "1": "Potable (according to dataset label)"
+  },
+  "rows_used": 8690,
+  "rows_dropped_missing_target": 1
+}
